@@ -11,7 +11,7 @@ export const Header = styled.div`
 	align-items: center;
     justify-content: space-between;
     background-color: rgba(18, 20, 33, 0.2);
-    padding: 30px 70px;
+    padding: 30px 8%;
 
     img{
         width: 149px;
@@ -32,11 +32,12 @@ export const Ul = styled.div`
 `
 
 export const Landing = styled.div`
-    margin-left: 70px;
     max-height: 90vh;
     .imgGooglePlay{
         width: 180px;
-        margin-top: 15px;
+        top: 62%;
+        left: 8%;
+        position: absolute;
     }
 
 `
@@ -44,7 +45,9 @@ export const Landing = styled.div`
 export const Texts = styled.div`
     color: white;
     max-width: 550px;
-    padding-top: 170px;
+    position: absolute;
+    top: 40%;
+    left: 8%;
     h1{
         font-size: 1.8em;
         margin-bottom: 10px;
@@ -64,6 +67,10 @@ export const ImageContainer = styled.div`
     }
     .imgHand{
         width: 620px;
+        @media(max-width: 1024px){
+            width: 400px;
+            background-color: transparent;
+        }
     }
     
 `
