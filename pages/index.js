@@ -33,8 +33,8 @@ export default function Home() {
             <Texts>
               <h1>Uma nova experiência ao buscar novas oportunidades...</h1>
               <p>
-                Profissionais de <span>Front-End</span>, <span>Back-End</span>,{" "}
-                <span>Mobile</span> e demais áreas, com o <span>DevSpace</span>{" "}
+                Profissionais de <span>Front-End</span>, <span>Back-End</span>,
+                <span>Mobile</span> e demais áreas, com o <span>DevSpace</span>
                 você terá a melhor experiência ao buscar uma nova oportunidade.
               </p>
             </Texts>

@@ -1,12 +1,10 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-    background-color: #121421;
+
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    width: 100%;
-    height: 100vh;
 `
 export const Header = styled.div`
     display: flex;
@@ -38,7 +36,7 @@ export const Landing = styled.div`
     max-height: 90vh;
     .imgGooglePlay{
         width: 180px;
-        margin-top: 10px;
+        margin-top: 15px;
     }
 
 `
@@ -59,11 +57,13 @@ export const Texts = styled.div`
 
 export const ImageContainer = styled.div`
     position: absolute;
-    top: 20%;
-    left: 50.5%; 
-    transform: scale(1.2);
+    bottom: 0;
+    right: 0;
     @media(max-width: 768px){
         display: none;
+    }
+    .imgHand{
+        width: 620px;
     }
     
 `
